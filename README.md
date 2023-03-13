@@ -11,3 +11,4 @@ Low-level programming & Algorithm - Hatching out
 0x08. C - Recursion
 0x09. C - Static Libraries
 0x0A. C - argc, argv
+0x0B. C - Malloc, free
