@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 #define ERR_MSG "Error"
 
 /**
@@ -25,7 +26,7 @@ int is_digit(char *s)
 
 /**
  * _strlen - return the length of a string
- * @s: string to be evaluated
+ * @s: string to evaluate
  *
  * Return: the length of string
  */
@@ -33,7 +34,7 @@ int _strlen(char *s)
 {
 	int i = 0;
 
-	while (s[i] = '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
