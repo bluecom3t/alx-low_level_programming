@@ -16,7 +16,7 @@ int is_digit(char *s)
 
 	while (s[i])
 	{
-		if (s[i] < '\0' || s[i] > '9')
+		if (s[i] < '0' || s[i] > '9')
 			return (0);
 		i++;
 	}
@@ -28,7 +28,7 @@ int is_digit(char *s)
  * _strlen - return the length of a string
  * @s: string to evaluate
  *
- * Return: the length of string
+ * Return: the length of the string
  */
 int _strlen(char *s)
 {
@@ -51,7 +51,7 @@ void errors(void)
 }
 
 /**
- * main - multiples two positive numbers
+ * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
  *
