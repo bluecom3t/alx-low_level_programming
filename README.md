@@ -12,3 +12,6 @@ Low-level programming & Algorithm - Hatching out
 0x09. C - Static Libraries
 0x0A. C - argc, argv
 0x0B. C - Malloc, free
+0x0C. C - More Malloc, free
+0x0D. C - Preprocessor
+0x0E. C - Structures, typedef
